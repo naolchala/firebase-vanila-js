@@ -1,0 +1,20 @@
+{
+  "name": "with-vanila-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.1.1",
+    "material-colors": "^1.2.6"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}

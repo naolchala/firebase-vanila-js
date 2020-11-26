@@ -1,0 +1,40 @@
+@import '~material-colors/dist/colors.scss';
+
+* {
+    font-family: poppins;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#signedOut {
+    .sign-in-with-google {
+        font-size: 16px;
+        border: none;
+        padding: 8px 20px;
+        background: $md-blue-500;
+        color: white;
+        box-shadow: 0 2px 5px -1px #aaaaaa;
+    }
+}
+
+#signedIn {
+    .sign-out {
+        font-size: 16px;
+        border: none;
+        padding: 8px 20px;
+        background: $md-red-500;
+        color: white;
+        box-shadow: 0 2px 5px -1px #aaaaaa;
+    }
+}
